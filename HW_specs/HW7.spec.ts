@@ -99,14 +99,6 @@ describe("onlinerTests", () => {
         let check5: WebElement = await driver.findElement(By.xpath('(//*[@class="vehicle-form__price vehicle-form__price_condensed"])[1]'));
         console.log(await check5.getText());
         await driver.close();
-        // setTimeout(async () => {
-        // let check5: WebElement = await driver.findElement(By.xpath('//*[@class="vehicle-form__price vehicle-form__price_condensed"]'));
-        // await driver.wait(until.elementLocated(By.xpath('//*[@class="vehicle-form__price vehicle-form__price_condensed"]')), 2000);
-        // await check5.getText();
-        // }, 20000);
-        // let check5: WebElement = await driver.findElement(By.xpath('(//div[@class="vehicle-form__offers-part vehicle-form__offers-part_price"])[1]'));
-        // await driver.wait(until.elementLocated(By.xpath('(//div[@class="vehicle-form__offers-part vehicle-form__offers-part_price"])[1]')), 2000);
-        // await check5.getText();
     });
 });
 
