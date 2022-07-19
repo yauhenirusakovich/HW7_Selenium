@@ -1,0 +1,25 @@
+import {By} from "selenium-webdriver";
+import exp from "constants";
+
+export let onlinerBy = 'https://www.onliner.by';
+export let mainNavigation = (By.css('[class="b-main-navigation__text"]'));
+export let inputSearch = (By.css('[class="fast-search__input"]'));
+export let closeSearch = (By.xpath('//*[@class="search__close"]'));
+export let fastSearchInput = (By.css('[class="fast-search__input"]'));
+export let iphone13Pro = (By.xpath('//*[@href="https://catalog.onliner.by/mobile/apple/iphone13pro"]'));
+export let cartButton = (By.xpath('//*[@class="button-style button-style_base-alter button-style_primary product-aside__button product-aside__button_narrow product-aside__button_cart button-style_expletive"]'));
+export let recommendedButton = (By.linkText("Перейти в корзину"));
+export let currencyAmount = (By.css('[class="_u js-currency-amount"]'));
+export let BuyDollars = (By.css('[for="buy"]'));
+export let dollarsAmount = (By.css('[id="amount-in"]'));
+export let cash = (By.css('[class="result to-be-removed"]'));
+export let ab = (By.linkText("Автобарахолка"));
+export let bmwFirm = (By.xpath('(//div[@class="input-style__faux"])[4]'));
+export let dropdown1 = (By.css('[class="dropdown-style__item dropdown-style__item_brand dropdown-style__item_brand_bmw-alter"]'));
+export let checkbox1 = (By.xpath('(//div[@class="input-style__faux"])[9]'));
+export let checkbox2 = (By.xpath('(//div[@class="i-checkbox__faux"])[246]'));
+export let checkbox3 = (By.xpath('(//div[@class="i-checkbox__faux"])[262]'));
+export let checkbox4 = (By.xpath('(//div[@class="i-checkbox__faux"])[256]'));
+export let checkbox5 = (By.xpath('(//div[@class="i-checkbox__faux"])[251]'));
+export let bmwCoupe = (By.xpath('(//div[@class="vehicle-form__link vehicle-form__link_primary-alter vehicle-form__link_middle vehicle-form__link_noreflex"])[3]'));
+export let moneyAmount = (By.xpath('(//*[@class="vehicle-form__price vehicle-form__price_condensed"])[1]'));
